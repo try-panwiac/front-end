@@ -83,7 +83,19 @@ resource "aws_instance" "ci-sockshop-k8s-master" {
       "sudo apt-get install -y kubelet kubeadm kubectl kubernetes-cni"
     ]
   }
+  metadata_options {
+    http_tokens = "required"
+  }
 }
+
+    http_tokens = "required"
+  }
+}
+
+    http_tokens = "required"
+  }
+}
+
 
 resource "aws_instance" "ci-sockshop-k8s-node" {
   instance_type   = "${var.node_instance_type}"
