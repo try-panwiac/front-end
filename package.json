@@ -19,15 +19,15 @@
   "license": "MIT",
   "dependencies": {
     "async": "^1.5.2",
-    "body-parser": "^1.15.1",
-    "connect-redis": "^3.2.0",
+    "body-parser": "1.19.2",
+    "connect-redis": "4.0.4",
     "cookie-parser": "^1.4.3",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
     "finalhandler": "^0.4.1",
     "morgan": "1.0.0",
     "prom-client": "^6.3.0",
-    "request": "2.81.0",
+    "request": "2.88.2",
     "serve-static": "^1.10.2"
   },
   "devDependencies": {
